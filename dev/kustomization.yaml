@@ -7,3 +7,6 @@ namespace: development
 namePrefix: dev-
 patchesStrategicMerge:
 - replicas.yaml
+image:
+  name: nginx
+  newTag: latest
